@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+    position: relative;
+    overflow: visible;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 460px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cancel {
+    margin-top: 550px;
+    margin-left: 100px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.return {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.turbo {
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.star {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.person {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+}
+
+.message {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+}
+
+.group {
+    position: absolute;
+    top: 18px;
+    right: 37%;
+    width: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: 18px;
+    left: 37%;
+    width: 30px;
+}
+
+.perfil {
+    position: absolute;
+    width: 425px;
+    height: 450px;
+    top: 75px;
+    left: 17.5px;
+    z-index: 1;
+    border-radius: 2%;
+}
+
+.usuario {
+    position: absolute;
+    bottom: 31%;
+    left: 28px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+    z-index: 5;
+}
+
+.description {
+    position: absolute;
+    bottom: 27%;
+    left: 28px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    z-index: 4;
+}
+
+.match {
+    position: absolute;
+    background: linear-gradient(to right, orange, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 22%;
+    left: 28px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 1000;
+    color: gold;
+    z-index: 3;
+}
+
+.flecha {
+    position: absolute;
+    bottom: 27%;
+    right: 28px;
+    width: 35px;
+    z-index: 2;
+}
+
+.btnLike:hover {
+    transform: scale(1.1, 1.1);
+    transition: .3s ease;
+}
+
+.btnDislike:hover {
+    transform: scale(1.1,1.1);
+    transition: .3s ease;
+
+}
+
+.cuentaLikes {
+    position: absolute;
+    top: 85px;
+    right: 35px;
+    width: 25px;
+    z-index: 6;
+}
+
+.cuentaDislikes {
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    width: 20px;
+    z-index: 7;
+}
+
+.btnLike {
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+    background-image: url(/assets/heart.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+}
+
+.btnDislike {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+    background-image: url(/assets/cancel.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+}
